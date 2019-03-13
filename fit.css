@@ -1,0 +1,446 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.bg1{
+    background-image: linear-gradient(rgba(1,0,0,0.7), rgba(0,0,0,0.7)),url(assects/images/bodybuilder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95%;
+}
+.header{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+}
+.header-nav{
+    margin-top: 22px;
+}
+.header-nav ul{
+
+
+}
+.header-nav ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+    margin-right: 30px;
+}
+.header-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Avenir LT Std';
+    font-size: 14px;
+}
+.hoemred{
+    text-decoration: underline;
+    color: red !important;
+
+}
+.header h3{
+
+    justify-content: space-between;
+    margin-top: 22px;
+}
+.header img{
+    margin-top: 11px;
+    height: 10%;
+}
+.header2{
+    margin-left: 168px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 131px;
+    width: 30%;
+    color: white;
+    font-size: 26px;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #ffffff !important;
+    padding: 13px 36px !important;
+}
+.men-class{
+
+    background-color: #dc3545;
+    width: 45%;
+    height: 45%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.men{
+    color: white;
+}
+.women-class{
+    background-color: #dc3545;
+    width: 39%;
+    height: 45%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+.keep-class{
+    /*margin-top: 120px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+
+}
+.start-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 645px;
+}
+.start{
+    background-color: #dc3545;
+    width: 65%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.start h1{
+    font-size: 37px;
+    width: 299px;
+}
+.btn3-red{
+    color: white!important;
+    background-color: red!important;
+
+}
+.btn3{
+    display: flex;
+    justify-content: center;
+}
+.training{
+    margin-left: 50px;
+}
+
+
+
+
+
+
+/*.men{*/
+    /*padding: 64px;*/
+    /*text-align: center; color: white;*/
+
+/*}*/
+/*.men p{*/
+    /*width: 61%;*/
+    /*margin-left: 71px;*/
+    /*color: white;*/
+/*}*/
+.btn-red{
+    color: white!important;
+    background-color: red!important;
+    margin-left: 70px;
+}
+.bg2{
+    background-image:  url("assects/images/menwomen.JPG");
+    background-repeat: no-repeat;
+    width: 104%;
+    height: 45%;
+    /*margin-left: -15px;*/
+    background-size: cover;
+
+}
+
+
+/*.women{*/
+    /*padding: 64px;*/
+    /*text-align: center; color: white;*/
+
+/*}*/
+/*.women p{*/
+    /*width: 61%;*/
+    /*margin-left: 71px;*/
+    /*color: white;*/
+/*}*/
+.btn2-red{
+    color: white!important;
+    background-color: red!important;
+
+    /*margin-right: 133px;*/
+
+}
+/*.sec3{*/
+
+    /*background-color: #dc3545;*/
+    /*width: 34%;*/
+    /*height: 45%;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*margin-top: -296px;*/
+    /*margin-right: 15px;*/
+/*}*/
+.bg3{
+    background-image:linear-gradient(rgba(1,0,0,0.7), rgba(0,0,0,0.7)),url("assects/images/game.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+
+    width: 100%;
+    height: 95%;
+
+    color: white;
+
+}
+ .bg3 h3{
+     margin-left: 95px;
+
+ }
+ .bg3 h1{
+
+     margin-left: 91px;
+     display: inline;
+ }
+ .bg3 p{
+     margin-left: 95px;
+     width: 223px;
+ }
+
+ /*.starttext{*/
+
+     /*padding: 15px 0px 0px 0px;*/
+     /*position: absolute;*/
+     /*font-size: 38px;*/
+ /*}*/
+
+
+ .btn2-red{
+     margin-top: -16px;
+     margin-right: 110px;
+ }
+ .section4{
+     background-image:linear-gradient(rgba(202,11,16,0.7),rgba(300,0,5,0.7)), url("assects/images/legpress.png");
+
+     width: 100%;
+     height: 80%;
+ }
+ .about{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+
+
+ }
+ .about h1{
+     margin-top: 70px;
+ }
+ .allpulse{
+     display: flex;
+
+ }
+.pulse12-class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pulse12{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 50px;
+
+}
+.pulse1 p{
+    width: 39%;
+    color: white;
+
+}
+.pulse2 p{
+    width: 39%;
+    color: white;
+}
+.pulse3 p{
+    width: 39%;
+    color: white;
+
+}
+.pulse4 p{
+    width: 39%;
+    color: white;
+}
+.bg4{
+    background-image: linear-gradient(rgba(1,0,0,0.7), rgba(0,0,0,0.7)),url("assects/images/squats.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /*display: flex;*/
+}
+.btn4-red{
+    color: white!important;
+    background-color: red!important;
+}
+.modern{
+    color: white;
+    DISPLAY: flex;
+    flex-direction: column;
+    justify-content: initial;
+    align-items: baseline;
+    margin-top: 228px;
+    margin-left: 96px;
+}
+.modern-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.club{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+ }
+.fit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card12{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container-fluid{
+    padding: 0px;
+}
+
+/*section7*/
+
+.bg5{
+    background-image: url("assects/images/legpress.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85%;
+}
+
+.col-sm-8 p{
+    color: white;
+}
+.set{
+    display: flex;
+    flex-direction: column;
+    margin-top: 158px;
+}
+.border1{
+    border-left: 1px solid #fff;
+    height: 412px;
+
+}
+.co{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* width: 94%; */
+    align-items: center;
+    margin-top: 40px;
+}
+.border2{
+
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid white;
+}
+.bg6{
+    background-image: url("assects/images/map.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.contact{
+    background-color: black;
+
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 184px;
+}
+.contact-main{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    height: 48%;
+}
+.contact-form1{
+    background-color: gray;
+    width: 100%;
+    height: 40%;
+}
+.contact-form1 h3{
+    color: white;
+    border-bottom: 4px solid white;
+    width: 211px;
+}
+.form-control{
+    width: 95% !important;
+}
+.message{
+
+    height: 80px!important;
+}
+.bottomfounder{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    border-top: 1px solid white;
+    width: 436px;
+    border-right: 1px solid white;
+}
+.bottomyoga{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    border-top: 1px solid white;
+    width: 449px;
+
+}
+.bottomboxing{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-size: 25px;
+    border-top: 1px solid white;
+}
+.headerlast{
+    background-color: black;
+    height: 10%;
+    width: 100%;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+}
